@@ -14,10 +14,11 @@
       </div>
     </div>
       <!-- <div class="mt-96"></div> -->
-    <div class="max-w-6xl mx-auto flex gap-x-24">
+    <div class="md:max-w-6xl mx-auto px-2 lg:px-0 flex flex-col md:flex-row md:gap-x-8 lg:gap-x-24">
+
       <div class="flex flex-col">
         <img  src="./image.jpg">
-        <div  class='flex flex-row mt-4 justify-between'>
+        <div  class='flex flex-row mt-4 justify-between overflow-auto gap-x-2'>
             <img class="h-24 w-auto" src='./image.jpg'>
             <img class="h-24 w-auto" src='./image.jpg'>
             <img class="h-24 w-auto" src='./image.jpg'>
@@ -26,12 +27,12 @@
         </div>
       </div>
 
-      <div class="flex flex-col max-w-md mt-24">
+      <div class="flex flex-col md:max-w-sm lg:max-w-md mt-12 mx-2">
         <div class="flex flex-col">
-          <h2 class="text-5xl font-semibold font-serif mt-1 ">Upholstered Sofa</h2>
-          <p class="mt-6 font-bold text-gray-700">Kyara Upholstered Standard Bed</p>
-          <p class="font-bold text-gray-700">by Zipcode Design</p>
-          <p class="mt-6 font-medium text-gray-600">Anchor your living room in contemporary style with this two-piece living room set, including one sofa and one loveseat. Founded on solid and manufactured wood frames.</p>
+          <h2 class="text-4xl md:text-5xl font-semibold font-serif mt-1 tracking-tighter">Upholstered Sofa</h2>
+          <p class="mt-6 font-semibold text-gray-600">Kyara Upholstered Standard Bed</p>
+          <p class="font-semibold text-gray-600 font-mono">by Zipcode Design</p>
+          <p class="mt-6 font-medium text-gray-500">Anchor your living room in contemporary style with this two-piece living room set, including one sofa and one loveseat. Founded on solid and manufactured wood frames.</p>
         </div>
 
         <div class="flex flex-col mt-6">
@@ -40,14 +41,14 @@
             <p class="mt-2">Submit Review</p>
         </div>
 
-        <div class="text-4xl font-medium my-7">
-            $567
+        <div class="text-4xl tracking-tighter my-7">
+            $<span class="font-medium tracking-tighter font-mono">567</span>
         </div>
         
         <div class="mt-4">
             <p class="font-bold text-gray-600">Dispatched in 7 working days</p>
-            <div class="flex mt-3">
-                <button class="px-12 py-4 text-sm bg-black text-gray-200 mr-2 font-medium">ADD TO CART</button>
+            <div class="flex flex-col md:flex-row mt-3 gap-y-4 md:gap-y-0 md:gap-x-2">
+                <button class="px-12 py-4 text-sm bg-black text-gray-200 font-medium">ADD TO CART</button>
                 <button class="px-12 py-4 text-sm border-black border-2 bg-white text-black font-medium">ADD TO WISHLIST</button>
             </div>
         </div>
@@ -57,8 +58,8 @@
     </div>
 
     <div class="bg-white mt-12 ">
-      <div class="max-w-6xl mx-auto flex gap-x-16 py-10">
-        <div class="flex flex-row max-w-xs">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-y-4 md:gap-x-16 py-10 px-2">
+        <div class="flex flex-row md:max-w-xs">
           <img class="h-8" src='./heart.svg'>
           <div class="flex flex-col ml-4">
             <p class="font-medium text-lg text-gray-700">Secure Payment</p>
@@ -66,7 +67,7 @@
           </div>
         </div>
   
-        <div class="flex flex-row max-w-xs">
+        <div class="flex flex-row md:max-w-xs">
           <img class="h-8" src='./heart.svg'>
           <div class="flex flex-col ml-4">
             <p class="font-medium text-lg text-gray-700">Secure Payment</p>
@@ -74,7 +75,7 @@
           </div>
         </div>
 
-        <div class="flex flex-row max-w-xs">
+        <div class="flex flex-row md:max-w-xs">
           <img class="h-8" src='./heart.svg'>
           <div class="flex flex-col ml-4">
             <p class="font-medium text-lg text-gray-700">Secure Payment</p>
