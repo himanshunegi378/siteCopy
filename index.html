@@ -36,8 +36,14 @@
         </div>
 
         <div class="flex flex-col mt-6">
-            <div>X X X X X</div>
-            <p class="mt-1">(5.0) review based on 250</p>
+            <div class=" flex flex-row gap-x-1">
+              <img class="h-6 w-auto" src='./star.svg'>
+              <img class="h-6 w-auto" src='./star.svg'>
+              <img class="h-6 w-auto" src='./star.svg'>
+              <img class="h-6 w-auto" src='./star.svg'>
+              <img class="h-6 w-auto" src='./star.svg'>
+            </div>
+            <p class="mt-1"><span style="color:#00d19b">(5.0)</span> review based on 250</p>
             <p class="mt-2">Submit Review</p>
         </div>
 
@@ -46,7 +52,10 @@
         </div>
         
         <div class="mt-4">
-            <p class="font-bold text-gray-600">Dispatched in 7 working days</p>
+            <div class="flex flex-row items-center gap-x-2">
+              <img class="h-4 w-auto" src='./clock.svg'> 
+              <div class="font-medium text-gray-600">Dispatched in 7 working days</div>
+          </div>
             <div class="flex flex-col md:flex-row mt-3 gap-y-4 md:gap-y-0 md:gap-x-2">
                 <button class="px-12 py-4 text-sm bg-black text-gray-200 font-medium">ADD TO CART</button>
                 <button class="px-12 py-4 text-sm border-black border-2 bg-white text-black font-medium">ADD TO WISHLIST</button>
